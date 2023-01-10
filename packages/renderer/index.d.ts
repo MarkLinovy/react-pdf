@@ -10,6 +10,7 @@ import {
   SVGPresentationAttributes,
   Bookmark,
 } from '@react-pdf/types';
+import {PropsWithChildren} from "react";
 
 declare namespace ReactPDF {
   interface Styles {
@@ -247,7 +248,7 @@ declare namespace ReactPDF {
   /**
    * The <SVG /> element is a container that defines a new coordinate system and viewport. It is used as the outermost element of SVG documents.
    */
-  class Svg extends React.Component<SVGProps> {}
+  class Svg extends React.Component<PropsWithChildren<SVGProps>> {}
 
   interface LineProps extends SVGPresentationAttributes {
     style?: SVGPresentationAttributes;
@@ -392,7 +393,7 @@ declare namespace ReactPDF {
   /**
    * The <LinearGradient /> element lets authors define linear gradients that can be applied to fill or stroke of graphical elements.
    */
-  class LinearGradient extends React.Component<LinearGradientProps> {}
+  class LinearGradient extends React.Component<PropsWithChildren<LinearGradientProps>> {}
 
   interface RadialGradientProps {
     id: string;
