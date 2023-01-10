@@ -11,16 +11,15 @@
     <a href="https://github.com/diegomura/react-pdf/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/diegomura/react-pdf.svg" />
     </a>
+    <a href="https://spectrum.chat/react-pdf">
+      <img src="https://withspectrum.github.io/badge/badge.svg" />
+    </a>
     <a href="https://github.com/prettier/prettier">
       <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" />
     </a>
-    <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fdiegomura%2Freact-pdf?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdiegomura%2Freact-pdf.svg?type=shield"/></a>
+    <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Ftaylorudell%2Freact-pdf?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftaylorudell%2Freact-pdf.svg?type=shield"/></a>
   </p>
 </p>
-
-## Lost?
-
-This package is used to _create_ PDFs using React. If you wish to _display_ existing PDFs, you may be looking for [react-pdf](https://github.com/wojtekmaj/react-pdf).
 
 ## How to install
 ```sh
@@ -84,11 +83,61 @@ import ReactPDF from '@react-pdf/renderer';
 ReactPDF.render(<MyDocument />, `${__dirname}/example.pdf`);
 ```
 
+## Examples
+For each example, try opening `output.pdf` to see the result.
+
+<table>
+	<tbody>
+		<tr>
+			<td align="center" valign="top">
+				<a href="https://github.com/diegomura/react-pdf/tree/master/packages/examples/src/text/">
+					<img width="150" height="150" src="https://github.com/diegomura/react-pdf/blob/master/packages/examples/src/text/thumb.png?raw=true">
+				</a>
+				<br>
+				<a href="https://github.com/diegomura/react-pdf/tree/master/packages/examples/src/text/">Text</a>
+			</td>
+			<td align="center" valign="top">
+				<a href="https://github.com/diegomura/react-pdf/tree/master/packages/examples/src/resume/">
+					<img width="150" height="150" src="https://github.com/diegomura/react-pdf/blob/master/packages/examples/src/resume/thumb.png?raw=true">
+				</a>
+				<br>
+				<a href="https://github.com/diegomura/react-pdf/tree/master/packages/examples/src/resume/">Resume</a>
+			</td>
+			<td align="center" valign="top">
+				<a href="https://github.com/diegomura/react-pdf/tree/master/packages/examples/src/fractals/">
+					<img width="150" height="150" src="https://github.com/diegomura/react-pdf/blob/master/packages/examples/src/fractals/thumb.png?raw=true">
+				</a>
+				<br>
+				<a href="https://github.com/diegomura/react-pdf/tree/master/packages/examples/src/fractals/">Fractals</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table>
+	<tbody>
+		<tr>
+			<td align="center" valign="top">
+				<a href="https://github.com/diegomura/react-pdf/tree/master/packages/examples/src/knobs/">
+					<img width="150" height="150" src="https://github.com/diegomura/react-pdf/blob/master/packages/examples/src/knobs/thumb.png?raw=true">
+				</a>
+				<br>
+				<a href="https://github.com/diegomura/react-pdf/tree/master/packages/examples/src/knobs/">Knobs</a>
+			</td>
+			<td align="center" valign="top">
+				<a href="https://github.com/diegomura/react-pdf/tree/master/packages/examples/src/pageWrap/">
+					<img width="150" height="150" src="https://github.com/diegomura/react-pdf/blob/master/packages/examples/src/pageWrap/thumb.png?raw=true">
+				</a>
+				<br>
+				<a href="https://github.com/diegomura/react-pdf/tree/master/packages/examples/src/pageWrap/">Page wrap</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
 ## Contributors
 
-This project exists thanks to all the people who contribute. Looking to contribute? Please check our [[contribute]](https://github.com/diegomura/react-pdf/blob/master/.github/CONTRIBUTING.md) document for more details about how to setup a development environment and submitting code.
-
-<a href="https://github.com/diegomura/react-pdf/blob/master/.github/CONTRIBUTING.md"><img src="https://opencollective.com/react-pdf/contributors.svg?width=890" /></a>
+This project exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
+<a href="https://github.com/diegomura/react-pdf/graphs/contributors"><img src="https://opencollective.com/react-pdf/contributors.svg?width=890" /></a>
 
 ## Sponsors
 
@@ -106,7 +155,7 @@ Thank you to all our backers! [[Become a backer](https://opencollective.com/reac
 
 MIT © [Diego Muracciole](http://github.com/diegomura)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdiegomura%2Freact-pdf.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdiegomura%2Freact-pdf?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftaylorudell%2Freact-pdf.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftaylorudell%2Freact-pdf?ref=badge_large)
 
 ---
 ![](https://img.shields.io/npm/dt/@react-pdf/renderer.svg?style=flat)
