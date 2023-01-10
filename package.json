@@ -8,11 +8,6 @@
   "homepage": "https://github.com/diegomura/react-pdf#readme",
   "main": "./lib/react-pdf.cjs.js",
   "module": "./lib/react-pdf.es.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
-    "directory": "packages/renderer"
-  },
   "browser": {
     "./lib/react-pdf.es.js": "./lib/react-pdf.browser.es.js",
     "./lib/react-pdf.cjs.js": "./lib/react-pdf.browser.cjs.js"
@@ -66,6 +61,7 @@
     "browserify-zlib": "^0.2.0",
     "buffer": "^6.0.3",
     "process": "^0.11.10",
+    "rollup": "^3.9.1",
     "size-limit": "^7.0.5",
     "util": "^0.12.4"
   }
